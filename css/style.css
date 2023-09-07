@@ -10089,3 +10089,28 @@ img.lazy-image.loaded{
 		font-size: 32px !important;
 	}
 }
+
+    
+/*whatsapp icon*/
+        .whatsapp-icon {
+  position: fixed;
+  left: 50px;
+  bottom: 40px;
+  width: 70px;
+  height: 70px;
+  z-index: 999;
+}
+
+.whatsapp-icon img {
+  width: 100%;
+  height: 100%;
+}
+
+@media only screen and (max-width:767px){
+    .whatsapp-icon{
+            height: 80px;
+            width: 80px;
+            margin-left: -25px;
+            margin-bottom: -25px;
+    }
+}
